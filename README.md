@@ -1,8 +1,8 @@
 # Semi-supervised Learning for Labeling Veterinary X-Ray Data
 
-This repository contains code for the paper
-**"Semi-supervised Learning for Labeling Veterinary X-Ray Data"** 
-by Doyun Kwon, Joongchan Ahn, Joon Im, Jeongmin Son, Eunbi Na
+* DS503(2024S) Term project
+* This repository contains code for the paper
+**"Semi-supervised Learning for Labeling Veterinary X-Ray Data"** by Doyun Kwon, Joongchan Ahn, Joon Im, Jeongmin Son, Eunbi Na
 
 ## Dependencies
 

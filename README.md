@@ -15,11 +15,7 @@ by Doyun Kwon, Joongchan Ahn, Joon Im, Jeongmin Son, Eunbi Na
 * `gdown`
 
 ## Dataset
-* Download dataset from my google-drive
-```
-bash download_data.sh
-```
-* If it doesn't work, try to download dataset manually at here (https://drive.google.com/drive/folders/1fyfeqMWtOeF1N32g4_R0Q4JpHpKQc7yg?usp=drive_link) Hierarchy should be like this.
+* Notice that you should download the dataset from my own google-drive and the directory structure matches the following:
 ```
 dataset
 estimation
@@ -47,7 +43,11 @@ training_functions.py
 vet_ours.py
 vet.py
 ```
-
+* Download dataset from my google-drive (Automatically)
+```
+bash download_data.sh
+```
+* If it doesn't work, try to download dataset via link https://drive.google.com/drive/folders/1fyfeqMWtOeF1N32g4_R0Q4JpHpKQc7yg?usp=drive_link. (Manually)
 ## Scripts
 Please check out `run_vet.sh` for the scripts to run the code.
 

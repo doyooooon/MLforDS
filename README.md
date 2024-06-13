@@ -15,7 +15,7 @@
 * `gdown`
 
 ## Dataset
-* Notice that you should download the dataset from my own google-drive and the directory structure should be the following:
+* Notice that you should download the dataset from my own google-drive and the directory structure should match the following structure:
 ```
 dataset
 estimation

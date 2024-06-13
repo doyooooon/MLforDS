@@ -2,7 +2,7 @@
 
 This repository contains code for the paper
 **"Semi-supervised Learning for Labeling Veterinary X-Ray Data"** 
-by Joongchan Doyun Kwon, Ahn, Joon Im, Jeongmin Son, Eunbi Na
+by Doyun Kwon, Joongchan Ahn, Joon Im, Jeongmin Son, Eunbi Na
 
 ## Dependencies
 
@@ -12,9 +12,44 @@ by Joongchan Doyun Kwon, Ahn, Joon Im, Jeongmin Son, Eunbi Na
 * `progress`
 * `scipy`
 * `randAugment (Pytorch re-implementation: https://github.com/ildoonet/pytorch-randaugment)`
+* `gdown`
+
+## Dataset
+* Download dataset from my google-drive
+```
+bash download_data.sh
+```
+* If it doesn't work, try to download dataset manually at here (https://drive.google.com/drive/folders/1fyfeqMWtOeF1N32g4_R0Q4JpHpKQc7yg?usp=drive_link) Hierarchy should be like this.
+```
+dataset
+estimation
+models
+utils
+data
+  ㄴbonedata
+    ㄴTraining
+      ㄴLabeled
+      ㄴRaw
+    ㄴValidation
+      ㄴLabeled
+      ㄴRaw
+arguments.py
+common.py
+eval.py
+LICENSE
+NOTICE
+README.md
+run_vet.sh
+train_base_estim.py
+train_crt.py
+train.py
+training_functions.py
+vet_ours.py
+vet.py
+```
 
 ## Scripts
-Please check out `run_vet.sh` for the scripts to run the baseline algorithms and ours (DARP).
+Please check out `run_vet.sh` for the scripts to run the code.
 
 ### Training procedure
 Train a network with baseline algorithm, e.g., MixMatch on Veterinary data
